@@ -365,7 +365,7 @@ ${mensagem}
           
           <div className="flex flex-col gap-3">
             <img
-              src="/logo.png"
+              src="/Logo.png"
               alt="Yares Advocacia"
               className="h-20 w-auto object-contain"
             />
