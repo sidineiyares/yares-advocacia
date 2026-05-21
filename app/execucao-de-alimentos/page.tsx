@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function ExecucaoDeAlimentos() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-black via-zinc-950 to-black text-white">
+    <main className="min-h-screen bg-gradient-to-r from-[#00261B] via-[#001A12] to-black text-white">
 
       {/* HERO */}
       <section className="max-w-6xl mx-auto px-6 py-28">
