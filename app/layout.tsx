@@ -33,8 +33,14 @@ export default function RootLayout({
         {/* NAVBAR */}
        <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-[#001A12]/90 shadow-lg shadow-black/20">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-
+<a
+  href="/blog"
+  className="hover:text-[#D4B06A] transition"
+>
+  Blog
+</a>
             <a
+            
   href="/"
   className="flex items-center gap-4"
 >

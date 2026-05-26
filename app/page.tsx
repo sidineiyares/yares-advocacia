@@ -9,7 +9,75 @@ import "swiper/css/pagination";
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-[#00261B] via-[#001A12] to-black text-white overflow-x-hidden">
+{/* NAVBAR */}
+<header className="fixed top-0 left-0 w-full z-50 bg-[#001A12]/95 border-b border-[#D4B06A]/10 backdrop-blur-xl">
 
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    {/* LOGO */}
+    <a href="/">
+      <img
+        src="/Logo.png"
+        alt="Yares Advocacia"
+        className="h-16 w-auto object-contain"
+      />
+    </a>
+
+    {/* MENU */}
+    <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
+
+      <a
+        href="/"
+        className="hover:text-[#D4B06A] transition"
+      >
+        Início
+      </a>
+
+      <a
+        href="/divorcio"
+        className="hover:text-[#D4B06A] transition"
+      >
+        Divórcio
+      </a>
+
+      <a
+        href="/pensao-alimenticia"
+        className="hover:text-[#D4B06A] transition"
+      >
+        Pensão
+      </a>
+
+      <a
+        href="/execucao-de-alimentos"
+        className="hover:text-[#D4B06A] transition"
+      >
+        Execução
+      </a>
+
+      <a
+        href="/advogado-trabalhista"
+        className="hover:text-[#D4B06A] transition"
+      >
+        Trabalhista
+      </a>
+
+      <a
+        href="/direito-internacional"
+        className="hover:text-[#D4B06A] transition"
+      >
+        Internacional
+      </a>
+
+      <a
+        href="/blog"
+        className="hover:text-[#D4B06A] transition"
+      >
+        Blog
+      </a>
+
+    </nav>
+  </div>
+</header>
       {/* HERO */}
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top,#0A3B2A_0%,#001A12_45%,#000000_100%)]">
 
